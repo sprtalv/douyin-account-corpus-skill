@@ -1,0 +1,6 @@
+interface:
+  display_name: "抖音账号完整转写"
+  short_description: "批量本地转写、全量语义说话人复核与可追溯增量资料库"
+  default_prompt: "使用 $douyin-account-corpus 将这个抖音账号整理为完整逐字稿，并保留说话人复核与来源记录。"
+policy:
+  allow_implicit_invocation: true
